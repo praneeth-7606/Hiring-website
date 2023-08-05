@@ -1,0 +1,28 @@
+.sliding-pictures-container {
+    overflow: hidden;
+    width: 78%;
+    height: 100px; /* Adjust the height to your desired size */
+    /* margin: 7%; */
+    margin-left: 8%;
+    padding-right: 8%;
+    padding-top: 7%;
+    margin-top: -20%;
+ 
+    /* margin-right:-10% ; */
+  }
+  
+  .sliding-pictures-inner {
+    display: flex;
+    transition: transform 1s ease; /* Adjust the animation duration */
+    
+    /* margin-right:10% ; */
+  }
+  
+  .sliding-pictures-inner img {
+    padding-bottom: 10%;
+    width: 10%; /* Adjust the image width to your desired size */
+    height: 100px; /* Adjust the image height to your desired size */
+    margin-right: 20px; /* Adjust the gap between images */
+    /* margin-right:10% ; */
+  }
+  
